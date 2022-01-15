@@ -13,6 +13,7 @@ font-family: 'Poppins', sans-serif; */
     --black: #000;
     --d-black: #0A0826;
     --l-black: #3a3a3a;
+    --gray: #787885;
     --white: #ffffff;
     --red: #E02C6D;
     --gold: #FB8200;
@@ -147,7 +148,6 @@ header nav .navbar .nav-item.active a.nav-link, header nav .navbar .nav-item a.n
 
 /* Brand Section */
 .brand .container{
-    /* margin: 150px auto; */
     padding: 80px;
 }
 .brand .container .brands{
@@ -162,5 +162,91 @@ header nav .navbar .nav-item.active a.nav-link, header nav .navbar .nav-item a.n
 .brand .container img.brand{
     padding: 20px 0;
     cursor: pointer;
+
+}
+
+
+
+/* Products Section */
+
+.popular-collection .container{
+    display:relative;
+    padding: 50px 100px;
+}
+
+.popular-collection h2{
+    text-align: center;
+    margin: 50px 0 50px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.popular-collection .products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.popular-collection .products .product{
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    box-shadow: 0 2px 10px #3a3a3a45;
+    padding: 15px;
     
+}
+
+.popular-collection .products .product h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--l-black);
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.popular-collection .products .product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.popular-collection .products .product h5{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--l-black);
+    line-height: 150%;
+}
+
+.popular-collection .products .product p.rating i.la{
+    color: var(--gold);
+}
+
+.popular-collection .products .product p.rating span{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--l-black);
+    line-height: 22px;
+}
+
+.popular-collection .products .product p.details{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--gray);
+    line-height: 150%;
+    margin: 15px 50px 15px 0;
+}
+
+
+.popular-collection .container a.see-more{
+    float: right;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration:none;
+    display: inline-flex;
+    color: var(--red);
+    column-gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.popular-collection .container a.see-more:hover{
+ color: var(--l-black);
 }
