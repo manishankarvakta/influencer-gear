@@ -143,3 +143,23 @@ header nav .navbar .nav-item.active a.nav-link, header nav .navbar .nav-item a.n
 .hero .container .hero-right .img:hover img{
     transform: rotateZ(15deg);
 }
+
+
+/* Brand Section */
+.brand .container{
+    /* margin: 150px auto; */
+    padding: 80px;
+}
+.brand .container .brands{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 25px 50px;
+    border-top: 2px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.brand .container img.brand{
+    padding: 20px 0;
+    cursor: pointer;
+}
