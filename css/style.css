@@ -2,8 +2,15 @@
 *--Main CSS file for Influencer Gear Website--*
 *--------------------------------------------*/
 
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Manrope&family=Poppins:wght@400;500;600;700;900&display=swap');
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
 /* Normalized  Browser Style */
 *, body{
     margin: 0;
     padding:0;
+    font-family: 'Poppins', sans-serif;
 }
