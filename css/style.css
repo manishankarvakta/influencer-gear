@@ -250,3 +250,58 @@ header nav .navbar .nav-item.active a.nav-link, header nav .navbar .nav-item a.n
 .popular-collection .container a.see-more:hover{
  color: var(--l-black);
 }
+
+
+/* Featured Section */
+
+.featured .container{
+    justify-content: center;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+}
+
+.featured .featured-left img{
+    margin-left: 20px;
+}
+
+.featured .featured-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.featured .featured-right h3{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 45px;
+
+}
+
+.featured .featured-right form input{
+    border: 1px solid var(--red);
+    font-size: 16px;
+    padding: 15px;
+    padding-right: 20px;
+}
+
+.featured .featured-right form input[type=email]{
+    border-top-left-radius: 25px;
+}
+
+.featured .featured-right form input[type=button] {
+    border-bottom-right-radius: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration:none;
+    display: inline-flex;
+    color: var(--white);
+    background: var(--red);
+    column-gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+.featured .featured-right p{
+    margin: 15px 50px 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
