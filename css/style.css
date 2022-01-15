@@ -8,6 +8,16 @@
 font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
+/* Colors variable */
+:root {
+    --black: #000;
+    --d-black: #0A0826;
+    --l-black: #3a3a3a;
+    --white: #ffffff;
+    --red: #E02C6D;
+    --gold: #FB8200;
+  }
+
 /* Normalized  Browser Style */
 *, body{
     margin: 0;
