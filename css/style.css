@@ -1,0 +1,9 @@
+/*--------------------------------------------*
+*--Main CSS file for Influencer Gear Website--*
+*--------------------------------------------*/
+
+/* Normalized  Browser Style */
+*, body{
+    margin: 0;
+    padding:0;
+}
